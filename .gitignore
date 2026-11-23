@@ -1,0 +1,23 @@
+# Réglages réels de l'application (mots de passe de la base, clés...) : jamais sur GitHub
+.env
+config/config.php
+
+# Dépendances installées par Composer / npm
+vendor/
+node_modules/
+
+# Sauvegardes automatiques de Looping
+*.lo1
+
+# Fichiers créés par Windows / macOS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Éditeurs de code
+.vscode/
+.idea/
+
+# Journaux et fichiers temporaires
+*.log
+*.tmp
